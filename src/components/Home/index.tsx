@@ -4,7 +4,7 @@ import useAnimateOnScroll from "../../hooks/useAnimateOnScroll";
 const Home = () => {
   const elementRef = useAnimateOnScroll();
   return (
-    <S.Home>
+    <S.Home id="home">
       <S.ContainerHome>
         <S.ContentHome ref={elementRef}>
           <h1>Anuncie nos melhores pontos</h1>

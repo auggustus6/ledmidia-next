@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import { fromBottomMenu } from "../../styles/Keyframes/Keyframes";
 
-export const Home = styled.div`
+export const Home = styled.section`
   background-image: url("img/banner1.svg");
   background-size: cover;
   width: 100%;

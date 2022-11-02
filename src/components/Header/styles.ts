@@ -6,6 +6,7 @@ export const Header = styled.header`
     padding: 2rem 0 1rem;
     width: 100%;
     z-index: 9999;
+    position: fixed;
   `}
 `;
 
