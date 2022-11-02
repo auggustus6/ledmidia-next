@@ -19,5 +19,6 @@ export default {
     dark: "#121212",
     white: "#FFF",
     button: "#00a6de",
+    btnHover: "#00aaff",
   },
 } as const;

@@ -2,8 +2,10 @@ import styled, { css } from "styled-components";
 import { fromBottomMenu } from "../../styles/Keyframes/Keyframes";
 
 export const List = styled.div`
-  animation-name: ${fromBottomMenu};
-  animation-duration: 2.5s;
+  &.active {
+    animation-name: ${fromBottomMenu};
+    animation-duration: 1.5s;
+  }
 `;
 
 export const Nav = styled.nav`
@@ -21,7 +23,7 @@ export const Nav = styled.nav`
     }
 
     ul li:last-child a:hover {
-      background: #00aaff;
+      background: ${theme.colors.btnHover};
     }
 
     li {

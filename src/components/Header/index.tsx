@@ -1,23 +1,22 @@
 import { useState } from "react";
-import { Container } from "../Container/styles";
 import Logo from "../Logo";
 import Menu from "../Menu";
 import IconMenu from "../IconMenu";
-import * as Styles from "./styles";
+import * as S from "./styles";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <Styles.Header>
-      <Container>
-        <Styles.Content>
+    <S.Header>
+      <S.ContainerHeader>
+        <S.Content>
           <Logo />
           <Menu expanded={isOpen} onClick={() => setIsOpen(!isOpen)} />
           <IconMenu onClick={() => setIsOpen(!isOpen)} expanded={isOpen} />
-        </Styles.Content>
-      </Container>
-    </Styles.Header>
+        </S.Content>
+      </S.ContainerHeader>
+    </S.Header>
   );
 };
 

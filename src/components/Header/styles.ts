@@ -5,9 +5,14 @@ export const Header = styled.header`
     background-color: ${theme.colors.dark};
     padding: 2rem 0 1rem;
     width: 100%;
-    position: fixed;
     z-index: 9999;
   `}
+`;
+
+export const ContainerHeader = styled.div`
+  margin: 0 auto;
+  max-width: 140rem;
+  width: 95%;
 `;
 
 export const Content = styled.div`
