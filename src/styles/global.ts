@@ -39,15 +39,15 @@ const GlobalStyles: GlobalStyleComponent<
 }
 
 .swiper-pagination-bullet-active {
-  background: #242428;
+  background: #505a23;
 }
 
 .swiper-button-prev {
-  color: #242428;
+  color: #121212;
 }
 
 .swiper-button-next {
-  color: #242428;
+  color: #121212;
 }
 
 html {

@@ -2,8 +2,10 @@ import * as S from "./styles";
 import { SwiperSlide, SwiperProps } from "swiper/react";
 import Slider from "../Slider/Slider";
 import Image from "next/image";
+import useAnimateOnScroll from "../../hooks/useAnimateOnScroll";
 
 const Advertisers = () => {
+  const elementRef = useAnimateOnScroll();
   const settings: SwiperProps = {
     spaceBetween: 1,
     slidesPerView: 2,
@@ -19,7 +21,7 @@ const Advertisers = () => {
   };
 
   return (
-    <S.Advertisers>
+    <S.Advertisers id="advertisers" ref={elementRef}>
       <S.ContainerAdvertisers>
         <S.ConTentAdvertisers>
           <h1>Nossos anunciantes</h1>

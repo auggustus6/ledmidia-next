@@ -1,8 +1,14 @@
 import styled, { css } from "styled-components";
+import { fromBottomMenu } from "../../styles/Keyframes/Keyframes";
 
 export const Advertisers = styled.section`
   width: 100%;
   text-align: center;
+
+  &.active {
+    animation-name: ${fromBottomMenu};
+    animation-duration: 1.5s;
+  }
 `;
 
 export const ContainerAdvertisers = styled.div`

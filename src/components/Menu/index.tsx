@@ -20,7 +20,7 @@ const Menu = ({ expanded, onClick }: IconMenuProps) => {
             </a>
           </li>
           <li>
-            <a onClick={onClick} href="#clients">
+            <a onClick={onClick} href="#advertisers">
               Clientes
             </a>
           </li>

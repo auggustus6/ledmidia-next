@@ -47,5 +47,4 @@ export const ContainerCard = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4rem;
 `;
