@@ -9,6 +9,7 @@ export const Home = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 `;
 
 export const ContainerHome = styled.div`

@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { fromBottomMenu } from "../../styles/Keyframes/Keyframes";
 
 export const Header = styled.header`
   ${({ theme }) => css`

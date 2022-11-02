@@ -2,7 +2,6 @@ import React from "react";
 import * as Styles from "../Menu/styles";
 import { IconMenuProps } from "../IconMenu/index";
 import useAnimateOnScroll from "../../hooks/useAnimateOnScroll";
-import { Link } from "react-scroll";
 
 const Menu = ({ expanded, onClick }: IconMenuProps) => {
   const elementRef = useAnimateOnScroll();

@@ -27,12 +27,14 @@ const GlobalStyles: GlobalStyleComponent<
       }
     }
 
-/* .swiper {
-  padding: 3.2rem 0 3.2rem;
+.swiper {
+  padding: 1rem;
 }
 
 .swiper-slide {
   display: flex;
+  padding-bottom: 5rem;
+  align-items: center;
   justify-content: center;
 }
 
@@ -46,7 +48,7 @@ const GlobalStyles: GlobalStyleComponent<
 
 .swiper-button-next {
   color: #242428;
-} */
+}
 
 html {
   font-size: 62.5%;

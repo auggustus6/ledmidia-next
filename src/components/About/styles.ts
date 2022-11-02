@@ -10,7 +10,6 @@ export const ContainerAbout = styled.div`
   max-width: 140rem;
   width: 95%;
   padding: 10rem 2rem 10rem;
-  border: 1px solid red;
 `;
 
 export const ContentAbout = styled.div`
@@ -37,7 +36,7 @@ export const ContentAbout = styled.div`
     p {
       max-width: 99rem;
       font-family: "Mukta";
-      color: ${theme.colors.dark};
+      color: rgba(18, 18, 18, 0.72);
       font-weight: 500;
       margin-bottom: 5rem;
     }
