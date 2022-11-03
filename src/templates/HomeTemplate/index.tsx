@@ -4,6 +4,7 @@ import Home from "../../components/Home";
 import * as Styles from "./styles";
 import About from "../../components/About";
 import Advertisers from "../../components/Advertisers";
+import Panels from "../../components/Panels";
 
 const HomeTemplate = () => {
   return (
@@ -12,6 +13,7 @@ const HomeTemplate = () => {
         <Home />
         <About />
         <Advertisers />
+        <Panels />
       </Styles.ContainerMain>
     </Layout>
   );
