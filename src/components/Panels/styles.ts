@@ -16,7 +16,7 @@ export const ContentPanels = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  
+
   ${({ theme }) => css`
     h1 {
       font-size: 3.2rem;
@@ -57,6 +57,10 @@ export const PainelOne = styled.div`
     transition: 0.3s;
 
     &:hover {
+      h1,
+      p {
+        display: none;
+      }
       background-image: url("/img/anubis.svg");
     }
 
@@ -65,7 +69,6 @@ export const PainelOne = styled.div`
       line-height: 3.2rem;
       font-weight: 500;
       color: ${theme.colors.white};
-      color: red;
     }
 
     p {
@@ -90,8 +93,13 @@ export const PainelTwo = styled.div`
     height: 38rem;
     background-image: url("/img/painel2.svg");
     background-size: cover;
+    transition: 0.3s;
 
     :hover {
+      h1,
+      p {
+        display: none;
+      }
       background-image: url("/img/rene.svg");
     }
 
@@ -124,8 +132,13 @@ export const PainelThree = styled.div`
     height: 38rem;
     background-image: url("/img/painel3.svg");
     background-size: cover;
+    transition: 0.3s;
 
     :hover {
+      h1,
+      p {
+        display: none;
+      }
       background-image: url("/img/murchid.svg");
     }
 
@@ -158,8 +171,13 @@ export const PainelFour = styled.div`
     height: 38rem;
     background-image: url("/img/painel4.svg");
     background-size: cover;
+    transition: 0.3s;
 
     :hover {
+      h1,
+      p {
+        display: none;
+      }
       background-image: url("/img/philadelpho.svg");
     }
 
