@@ -9,7 +9,7 @@ export const ContainerAbout = styled.div`
   margin: 0 auto;
   max-width: 140rem;
   width: 95%;
-  padding: 10rem 2rem 10rem;
+  padding: 10rem 2rem 0 2rem;
 `;
 
 export const ContentAbout = styled.div`

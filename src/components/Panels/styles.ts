@@ -1,7 +1,13 @@
 import styled, { css } from "styled-components";
+import { fromBottomMenu } from "../../styles/Keyframes/Keyframes";
 
 export const Panels = styled.section`
   width: 100%;
+
+  &.active {
+    animation-name: ${fromBottomMenu};
+    animation-duration: 1.5s;
+  }
 `;
 
 export const ContainerPanels = styled.div`

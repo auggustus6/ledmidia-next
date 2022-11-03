@@ -10,6 +10,7 @@ export const Home = styled.section`
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 9.7rem;
 `;
 
 export const ContainerHome = styled.div`

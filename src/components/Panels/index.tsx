@@ -1,8 +1,10 @@
 import * as S from "./styles";
+import useAnimateOnScroll from "../../hooks/useAnimateOnScroll";
 
 const Panels = () => {
+  const elementRef = useAnimateOnScroll();
   return (
-    <S.Panels>
+    <S.Panels id="painel" ref={elementRef}>
       <S.ContainerPanels>
         <S.ContentPanels>
           <h1>Nossos painéis</h1>

@@ -15,7 +15,7 @@ export const ContainerAdvertisers = styled.div`
   margin: 0 auto;
   max-width: 140rem;
   width: 95%;
-  padding: 0rem 2rem;
+  padding: 10rem 2rem 0 2rem;
 `;
 
 export const ConTentAdvertisers = styled.div`
