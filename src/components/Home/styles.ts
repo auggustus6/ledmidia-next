@@ -56,10 +56,10 @@ export const ContentHome = styled.div`
       font-size: 2.4rem;
       line-height: 3.2rem;
       font-weight: 500;
-    }
 
-    a:hover {
-      background: ${theme.colors.btnHover};
+      &:hover {
+        background: ${theme.colors.btnHover};
+      }
     }
   `}
 `;

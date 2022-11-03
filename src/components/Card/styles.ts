@@ -6,7 +6,7 @@ export const Card = styled.div`
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 
-  :hover {
+  &:hover {
     transform: scale(1.1);
   }
 `;

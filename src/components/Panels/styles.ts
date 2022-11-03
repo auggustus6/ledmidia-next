@@ -16,6 +16,7 @@ export const ContentPanels = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  
   ${({ theme }) => css`
     h1 {
       font-size: 3.2rem;
