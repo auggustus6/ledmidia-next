@@ -15,7 +15,7 @@ export const Home = styled.section`
 
 export const ContainerHome = styled.div`
   margin: 0 auto;
-  max-width: 140rem;
+  max-width: 128rem;
   width: 95%;
   padding: 10rem 2rem;
 `;

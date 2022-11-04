@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components";
-import { fromBottomMenu } from "../../styles/Keyframes/Keyframes";
 
 export const Header = styled.header`
   ${({ theme }) => css`
@@ -14,7 +13,7 @@ export const Header = styled.header`
 
 export const ContainerHeader = styled.div`
   margin: 0 auto;
-  max-width: 140rem;
+  max-width: 128rem;
   width: 95%;
 `;
 

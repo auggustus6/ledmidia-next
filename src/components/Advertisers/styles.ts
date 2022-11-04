@@ -13,7 +13,7 @@ export const Advertisers = styled.section`
 
 export const ContainerAdvertisers = styled.div`
   margin: 0 auto;
-  max-width: 140rem;
+  max-width: 128rem;
   width: 95%;
   padding: 10rem 2rem 0 2rem;
 `;

@@ -12,7 +12,7 @@ export const Panels = styled.section`
 
 export const ContainerPanels = styled.div`
   margin: 0 auto;
-  max-width: 140rem;
+  max-width: 128rem;
   width: 95%;
   padding: 10rem 2rem 10rem;
 `;
@@ -56,7 +56,7 @@ export const PainelOne = styled.div`
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    width: 58rem;
+    width: 58.8rem;
     height: 38rem;
     background-image: url("/img/painel1.svg");
     background-size: cover;
@@ -95,7 +95,7 @@ export const PainelTwo = styled.div`
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    width: 58rem;
+    width: 58.8rem;
     height: 38rem;
     background-image: url("/img/painel2.svg");
     background-size: cover;
@@ -134,7 +134,7 @@ export const PainelThree = styled.div`
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    width: 58rem;
+    width: 58.8rem;
     height: 38rem;
     background-image: url("/img/painel3.svg");
     background-size: cover;
@@ -173,7 +173,7 @@ export const PainelFour = styled.div`
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    width: 58rem;
+    width: 58.8rem;
     height: 38rem;
     background-image: url("/img/painel4.svg");
     background-size: cover;
