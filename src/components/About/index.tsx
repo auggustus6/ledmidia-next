@@ -9,11 +9,16 @@ const About = () => {
   const elementRef = useAnimateOnScroll();
   const settings: SwiperProps = {
     spaceBetween: 10,
-    slidesPerView: 2,
     loop: true,
     breakpoints: {
-      700: {
+      1000: {
         slidesPerView: 3,
+      },
+      700: {
+        slidesPerView: 2,
+      },
+      350: {
+        slidesPerView: 1,
       },
     },
     pagination: {

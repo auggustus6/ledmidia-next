@@ -62,6 +62,20 @@ export const PainelOne = styled.div`
     background-size: cover;
     transition: 0.3s;
 
+    @media (max-width: 1330px) {
+      max-width: 50rem;
+    }
+
+    @media (max-width: 1140px) {
+      max-width: 40rem;
+      height: 28rem;
+    }
+
+    @media (max-width: 414px) {
+      max-width: 33rem;
+      height: 28rem;
+    }
+
     &:hover {
       h1,
       p {
@@ -100,6 +114,20 @@ export const PainelTwo = styled.div`
     background-image: url("/img/painel2.svg");
     background-size: cover;
     transition: 0.3s;
+
+    @media (max-width: 1330px) {
+      max-width: 50rem;
+    }
+
+    @media (max-width: 1140px) {
+      max-width: 40rem;
+      height: 28rem;
+    }
+
+    @media (max-width: 414px) {
+      max-width: 33rem;
+      height: 28rem;
+    }
 
     :hover {
       h1,
@@ -140,6 +168,20 @@ export const PainelThree = styled.div`
     background-size: cover;
     transition: 0.3s;
 
+    @media (max-width: 1330px) {
+      max-width: 50rem;
+    }
+
+    @media (max-width: 1140px) {
+      max-width: 40rem;
+      height: 28rem;
+    }
+
+    @media (max-width: 414px) {
+      max-width: 33rem;
+      height: 28rem;
+    }
+
     :hover {
       h1,
       p {
@@ -178,6 +220,20 @@ export const PainelFour = styled.div`
     background-image: url("/img/painel4.svg");
     background-size: cover;
     transition: 0.3s;
+
+    @media (max-width: 1330px) {
+      max-width: 50rem;
+    }
+
+    @media (max-width: 1140px) {
+      max-width: 40rem;
+      height: 28rem;
+    }
+
+    @media (max-width: 414px) {
+      max-width: 33rem;
+      height: 28rem;
+    }
 
     :hover {
       h1,

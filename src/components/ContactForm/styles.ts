@@ -30,7 +30,6 @@ export const ContainerForm = styled.div`
     }
     .error {
       color: #df4759;
-      font-size: 1.6rem;
     }
     .disabled-btn {
       cursor: not-allowed;

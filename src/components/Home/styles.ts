@@ -62,5 +62,24 @@ export const ContentHome = styled.div`
         background: ${theme.colors.btnHover};
       }
     }
+    @media (max-width: 750px) {
+      h1 {
+        line-height: 4.8rem;
+      }
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 3.8rem;
+      }
+
+      p {
+        font-size: 2rem;
+      }
+
+      a {
+        font-size: 2rem;
+      }
+    }
   `}
 `;
