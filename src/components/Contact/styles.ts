@@ -47,4 +47,6 @@ export const ContentContact = styled.div`
   `}
 `;
 
-export const ContentForm = styled.div``;
+export const ContentForm = styled.div`
+  width: 58rem;
+`;

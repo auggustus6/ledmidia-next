@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const ContainerForm = styled.div`
   ${({ theme }) => css`
-    width: 58rem;
+    width: 100%;
 
     form {
       display: flex;
@@ -43,9 +43,9 @@ export const ContainerForm = styled.div`
 
     input {
       font-family: "Mukta";
-      width: 100%;
       padding: 1.6rem;
       outline: none;
+      width: 100%;
       border-radius: 8px;
       font-weight: 500;
       color: ${theme.colors.dark};
