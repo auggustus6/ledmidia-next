@@ -48,6 +48,11 @@ const ContactForm = () => {
       initialValues={initialValues}
       validationSchema={contactInSchema}
       onSubmit={(values: FormValues, { resetForm }) => {
+        Swal.fire(
+          "Formulário Enviado com Sucesso",
+          "Clique no botão para enviar outro formulário",
+          "success",
+        );
         resetForm({
           values: {
             name: "",
