@@ -20,6 +20,10 @@ export const SiteMap = styled.div`
       font-weight: 500;
       line-height: 2.4rem;
       color: rgba(255, 255, 255, 0.72);
+
+      &:hover {
+        color: ${theme.colors.btnHover};
+      }
     }
   `}
 `;

@@ -5,5 +5,6 @@ export const Logo = styled.div`
     max-width: 25rem;
     vertical-align: middle;
     z-index: 99999;
+    cursor: pointer;
   }
 `;
