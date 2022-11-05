@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../Footer";
 import Header from "../Header";
+import Wpp from "../Wpp";
 
 const Layout: React.FC = ({ children }) => {
   return (
@@ -8,6 +9,7 @@ const Layout: React.FC = ({ children }) => {
       <Header />
       {children}
       <Footer />
+      <Wpp />
     </>
   );
 };
