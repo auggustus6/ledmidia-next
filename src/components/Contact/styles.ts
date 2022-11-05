@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { fromBottomMenu } from "../../styles/Keyframes/Keyframes";
 
 export const Contact = styled.section`
   width: 100%;
@@ -9,6 +10,11 @@ export const Contact = styled.section`
   justify-content: center;
   text-align: center;
   background-size: cover;
+
+  &.active {
+    animation-name: ${fromBottomMenu};
+    animation-duration: 1.5s;
+  }
 
   @media (max-width: 450px) {
     height: 90vh;

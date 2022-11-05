@@ -1,10 +1,16 @@
 import styled, { css } from "styled-components";
+import { fromBottomMin } from "../../styles/Keyframes/Keyframes";
 
 export const Footer = styled.div`
   ${({ theme }) => css`
     width: 100%;
     background: ${theme.colors.dark};
     padding: 5rem 0;
+
+    &.active {
+      animation-name: ${fromBottomMin};
+      animation-duration: 1.5s;
+    }
   `}
 `;
 

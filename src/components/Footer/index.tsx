@@ -4,10 +4,12 @@ import MenuFooter from "../MenuFooter";
 import Address from "../Address";
 import ContactFooter from "../ContactFooter";
 import Attendance from "../Attendance";
+import useAnimateOnScroll from "../../hooks/useAnimateOnScroll";
 
 const Footer = () => {
+  const elementRef = useAnimateOnScroll();
   return (
-    <S.Footer>
+    <S.Footer ref={elementRef}>
       <S.ContainerFooter>
         <S.LogoContaint>
           <Image src="/img/ledMidia.svg" width="100" height="60" />

@@ -1,9 +1,11 @@
 import ContactForm from "../ContactForm";
 import * as S from "./styles";
+import useAnimateOnScroll from "../../hooks/useAnimateOnScroll";
 
 const Contact = () => {
+  const elementRef = useAnimateOnScroll();
   return (
-    <S.Contact id="contact">
+    <S.Contact id="contact" ref={elementRef}>
       <S.ContainerContact>
         <S.ContentContact>
           <h2>Peça seu orgamento agora!</h2>
