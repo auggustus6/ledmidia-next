@@ -1,5 +1,4 @@
 import * as S from "./styles";
-import Image from "next/image";
 
 const MenuFooter = () => {
   return (
