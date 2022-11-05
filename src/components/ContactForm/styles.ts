@@ -22,6 +22,10 @@ export const ContainerForm = styled.div`
         line-height: 2.4rem;
         color: ${theme.colors.white};
         cursor: pointer;
+
+        @media (max-width: 690px) {
+          padding: 1rem;
+        }
       }
     }
 
@@ -51,6 +55,12 @@ export const ContainerForm = styled.div`
       font-weight: 500;
       font-size: 2rem;
       line-height: 3.2rem;
+
+      @media (max-width: 690px) {
+        padding: 1rem;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+      }
 
       ::placeholder {
         color: #c2c2c2;

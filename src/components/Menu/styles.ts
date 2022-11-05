@@ -52,15 +52,13 @@ export const Nav = styled.nav`
         position: fixed;
         left: -100rem;
         top: 0;
-
-        background-color: #121212;
-        width: 50%;
+        background-color: ${theme.colors.dark};
+        width: 100%;
         height: 100vh;
-
         display: flex;
         align-items: center;
         justify-content: center;
-
+        gap: 5rem;
         transition: 0.5s;
       }
 
@@ -70,6 +68,8 @@ export const Nav = styled.nav`
 
       a {
         color: ${theme.colors.white};
+        font-size: 2.4rem;
+        font-family: "Mukta", sans-serif;
       }
 
       &.active {
