@@ -25,7 +25,7 @@ export const ContainerContact = styled.div`
   margin: 0 auto;
   max-width: 128rem;
   width: 95%;
-  padding: 10rem 2rem 0 2rem;
+  padding: 10rem 2rem 3rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
