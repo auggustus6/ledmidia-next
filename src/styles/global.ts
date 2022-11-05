@@ -50,6 +50,12 @@ const GlobalStyles: GlobalStyleComponent<
   color: #121212;
 }
 
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;

@@ -18,5 +18,9 @@ export const Address = styled.div`
       color: rgba(255, 255, 255, 0.72);
       margin-bottom: 1.6rem;
     }
+
+    @media (max-width: 780px) {
+      align-self: flex-start;
+    }
   `}
 `;
