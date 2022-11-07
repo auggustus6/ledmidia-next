@@ -23,24 +23,19 @@ const ContactForm = () => {
       .email("Por favor insira um e-mail válido")
       .required("Email obrigatório"),
     phoneNumber: Yup.string().required("Insira um telefone"),
-    company: Yup.string().required("Digite o nome da empresa"),
-    office: Yup.string().required("Digite o cargo"),
   });
 
   interface FormValues {
     name: string;
     email: string;
     phoneNumber: string;
-    company: string;
-    office: string;
   }
 
   const initialValues: FormValues = {
     name: "",
     email: "",
     phoneNumber: "",
-    company: "",
-    office: "",
+
   };
 
   return (
@@ -58,8 +53,6 @@ const ContactForm = () => {
             name: "",
             email: "",
             phoneNumber: "",
-            company: "",
-            office: "",
           },
         });
         console.log(values);
@@ -111,38 +104,6 @@ const ContactForm = () => {
                 />
                 <ErrorMessage
                   name="phoneNumber"
-                  component="span"
-                  className="error"
-                />
-              </S.FormRow>
-              <S.FormRow>
-                <Field
-                  type="text"
-                  placeholder="Empresa"
-                  name="company"
-                  id="company"
-                  className={
-                    errors.company && touched.company ? "input-error" : null
-                  }
-                />
-                <ErrorMessage
-                  name="company"
-                  component="span"
-                  className="error"
-                />
-              </S.FormRow>
-              <S.FormRow>
-                <Field
-                  type="text"
-                  placeholder="Cargo"
-                  name="office"
-                  id="office"
-                  className={
-                    errors.office && touched.office ? "input-error" : null
-                  }
-                />
-                <ErrorMessage
-                  name="office"
                   component="span"
                   className="error"
                 />
