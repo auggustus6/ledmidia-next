@@ -35,7 +35,6 @@ const ContactForm = () => {
     name: "",
     email: "",
     phoneNumber: "",
-
   };
 
   return (
@@ -43,11 +42,13 @@ const ContactForm = () => {
       initialValues={initialValues}
       validationSchema={contactInSchema}
       onSubmit={(values: FormValues, { resetForm }) => {
-        Swal.fire(
-          "Formulário Enviado com Sucesso",
-          "Clique no botão para enviar outro formulário",
-          "success",
-        );
+        Swal.fire({
+          icon: "success",
+          heightAuto: false,
+          title: "Formulário Enviado com Sucesso",
+          text: "Clique no botão para enviar outro formulário",
+          confirmButtonColor: "#00a6de",
+        });
         resetForm({
           values: {
             name: "",
