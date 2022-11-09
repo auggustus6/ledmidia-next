@@ -6,6 +6,11 @@ interface PainelData {
   hoverBackgroundImg: string;
 }
 
+export const ContentPainel = styled.div`
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+`;
+
 export const Painel = styled.div<PainelData>`
   cursor: pointer;
   display: flex;
@@ -44,6 +49,7 @@ export const Painel = styled.div<PainelData>`
     line-height: 3.2rem;
     font-weight: 500;
     color: ${theme.colors.white};
+    margin-top: 1rem;
   }
 
   p {
@@ -52,7 +58,7 @@ export const Painel = styled.div<PainelData>`
     color: rgba(255, 255, 255, 0.72);
     line-height: 2.4rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 `;
 
