@@ -1,5 +1,6 @@
 import * as S from "./styles";
 import useAnimateOnScroll from "../../hooks/useAnimateOnScroll";
+import PanelsCard from "../PanelsCard";
 
 const Panels = () => {
   const elementRef = useAnimateOnScroll();
@@ -13,27 +14,7 @@ const Panels = () => {
             sint. Velit officia consequat duis enim velit mollit. Exercitation
             veniam consequat sunt nostrud amet.
           </p>
-          <S.ContainerPanelsCard>
-            <S.PainelOne>
-              <h1>Anubis</h1>
-              <p>Av. Alberto Andalo sentido centro</p>
-            </S.PainelOne>
-            <S.PainelTwo>
-              <h1>Rene</h1>
-              <p>Av. Bady Bassitt sentido centro</p>
-            </S.PainelTwo>
-            <S.PainelThree>
-              <h1>Murchid Homsi</h1>
-              <p>Av. Murchid Homsi, sentido Hosp Austa/Rod.WLuiz</p>
-            </S.PainelThree>
-            <S.PainelFour>
-              <h1>Philadelpho</h1>
-              <p>
-                Av Philadelpho Gouveia Netto, esquina Mc Donald Sentido Regiao
-                Norte
-              </p>
-            </S.PainelFour>
-          </S.ContainerPanelsCard>
+          <PanelsCard />
         </S.ContentPanels>
       </S.ContainerPanels>
     </S.Panels>
