@@ -5,7 +5,8 @@ const Wpp = () => {
   return (
     <S.Wpp>
       <a
-        href="https://api.whatsapp.com/send?phone=5534992910363&text=Ol%C3%A1%2C%20Teste%20"
+        href="https://api.whatsapp.com/send?phone=5517992623038&text=Ol%C3%A1%2C%20Teste%20"
+        target="_blank"
         rel="noreferrer"
       >
         <Image src="/img/wpp.png" width={60} height={60} />

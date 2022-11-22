@@ -10,9 +10,12 @@ const Panels = () => {
         <S.ContentPanels>
           <h1>Nossos painéis</h1>
           <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
+            Nossos painéis estão posicionados estratégicamente em 3 das
+            principais vias de maior fluxo de veículos da cidade, cujas
+            localizações exclusivas atingem um volume enorme de clientes e
+            potenciais clientes, solidificando a marca para seus consumidores e
+            aumentando significamente a possibilidade de expansão, com a
+            conquista e prospecção de novas pessoas do público-alvo.
           </p>
           <PanelsCard />
         </S.ContentPanels>

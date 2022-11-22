@@ -10,9 +10,11 @@ const Contact = () => {
         <S.ContentContact>
           <h2>Peça seu orçamento agora!</h2>
           <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
+            No movimento das imagens, de cores e contrastes, animados e
+            inéditos, se alicerçou a sedução alcançada pelos tablets e
+            smartphone e agora chegou a hora de transcender, de alcançar o
+            público com este mesmo apelo, através da veiculação em Painéis led
+            de Alta Definição DOOH - Digital Out Of Home.
           </p>
         </S.ContentContact>
         <S.ContentForm>

@@ -11,9 +11,9 @@ const MenuFooter = () => {
         <li>
           <a href="#about">Sobre</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#advertisers">Clients</a>
-        </li>
+        </li> */}
         <li>
           <a href="#painel">Nossos painéis</a>
         </li>

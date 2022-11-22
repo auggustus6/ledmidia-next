@@ -14,7 +14,7 @@ const Footer = () => {
         </S.LogoContaint>
         <S.Content>
           <MenuFooter />
-          <Address />
+          {/* <Address /> */}
           <ContactFooter />
           <Attendance />
         </S.Content>

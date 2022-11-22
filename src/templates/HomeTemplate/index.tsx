@@ -13,7 +13,7 @@ const HomeTemplate = () => {
       <Styles.ContainerMain>
         <Home />
         <About />
-        <Advertisers />
+        {/* <Advertisers /> */}
         <Panels />
         <Contact />
       </Styles.ContainerMain>

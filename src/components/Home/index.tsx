@@ -8,7 +8,7 @@ const Home = () => {
       <S.ContainerHome>
         <S.ContentHome ref={elementRef}>
           <h1>Anuncie nos melhores pontos</h1>
-          <p>Posicione sua empresa nas melhores localizaões</p>
+          <p>Posicione sua empresa nas melhores localizações</p>
           <a href="#">Quero Divulgar</a>
         </S.ContentHome>
       </S.ContainerHome>

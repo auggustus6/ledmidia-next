@@ -5,7 +5,7 @@ const Attendance = () => {
     <S.AttendanceFooter>
       <h3>Atendimento</h3>
       <p>Segunda a Sexta</p>
-      <p>7h30 às 17h30</p>
+      <p>08h às 18h00</p>
     </S.AttendanceFooter>
   );
 };

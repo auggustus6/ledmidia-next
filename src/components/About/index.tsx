@@ -9,7 +9,7 @@ const About = () => {
   const elementRef = useAnimateOnScroll();
   const settings: SwiperProps = {
     spaceBetween: 10,
-    loop: true,
+    loop: false,
     breakpoints: {
       1000: {
         slidesPerView: 3,
@@ -32,33 +32,42 @@ const About = () => {
         <S.ContentAbout ref={elementRef}>
           <h1>Sua marca vai impactar a cidade</h1>
           <p>
-            Se você chegou até aqui, sabemos que quer levar a comunicação da sua
-            empresa a outro patamar. Vamos montar um plano para impactar a
-            cidade. São mais de 50 anos conectando marcas e pessoas.
+            Nascemos da evolução de conceitos experimentados, com objetivo de
+            promover o novo, o futuro, com desenvolvimento e sustentabilidade.
           </p>
-          <Image src="/img/about.svg" width="790" height="420" />
+          <p>
+            No movimento das imagens, de cores e contrastes, animados e
+            inéditos, se alicerçou a sedução alcançada pelos tablets e
+            smartphone e agora chegou a hora de transcender, de alcançar o
+            público com este mesmo apelo, através da veiculação em Painéis led
+            de Alta Definição DOOH - Digital Out Of Home.
+          </p>
+          <p>
+            A imagem de grande formato de papel, tinta e solventes dos outdoos,
+            inerte e passiva, que se integra a paisagem e deixa de ser notada
+            após o segundo olhar, deram ao movimento, a ação, levando a marca ao
+            cliente com maior força, potência e qualidade.
+          </p>
+
+          <Image src="/img/banner_led.png" width="790" height="420" />
         </S.ContentAbout>
         <S.ContainerCard>
           <Slider settings={settings}>
             <SwiperSlide>
-              <Card
-                img="/img/icon1.svg"
-                title="Título"
-                p="Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. "
-              />
+              <Card img="/img/icon1.svg" title="Tecnologia e Inovação" p="" />
             </SwiperSlide>
             <SwiperSlide>
               <Card
                 img="/img/icon2.svg"
-                title="Título"
-                p="Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. "
+                title="Exclusividade e Estratégia"
+                p=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <Card
                 img="/img/icon3.svg"
-                title="Título"
-                p="Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. "
+                title="Visibilidade e Flexbilidade"
+                p=""
               />
             </SwiperSlide>
           </Slider>
