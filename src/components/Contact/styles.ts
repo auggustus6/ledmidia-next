@@ -3,7 +3,7 @@ import { fromBottomMenu } from "../../styles/Keyframes/Keyframes";
 
 export const Contact = styled.section`
   width: 100%;
-  height: 86vh;
+  height: auto;
   background-image: url("img/banner2.svg");
   display: flex;
   align-items: center;
@@ -17,7 +17,7 @@ export const Contact = styled.section`
   }
 
   @media (max-width: 450px) {
-    height: 90vh;
+    height: auto;
   }
 `;
 

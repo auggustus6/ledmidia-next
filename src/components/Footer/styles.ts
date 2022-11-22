@@ -20,7 +20,7 @@ export const ContainerFooter = styled.div`
   }
 
   @media (max-width: 780px) {
-    align-items: center;
+    align-items: flex-start;
   }
 `;
 
@@ -31,6 +31,7 @@ export const Content = styled.div`
   gap: 6rem;
 
   @media (max-width: 780px) {
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;

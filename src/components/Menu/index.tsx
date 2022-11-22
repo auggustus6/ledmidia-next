@@ -19,11 +19,11 @@ const Menu = ({ expanded, onClick }: IconMenuProps) => {
               Sobre
             </a>
           </li>
-          <li>
+          {/* <li>
             <a onClick={onClick} href="#advertisers">
               Clientes
             </a>
-          </li>
+          </li> */}
           <li>
             <a onClick={onClick} href="#painel">
               Nossos painéis
