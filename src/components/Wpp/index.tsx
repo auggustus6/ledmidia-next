@@ -5,7 +5,7 @@ const Wpp = () => {
   return (
     <S.Wpp>
       <a
-        href="https://api.whatsapp.com/send?phone=5517992623038&text=Ol%C3%A1%2C%20Teste%20"
+        href="https://api.whatsapp.com/send?phone=5517992623038&text=Olá%20Seja%20Bem%20Vindo"
         target="_blank"
         rel="noreferrer"
       >
