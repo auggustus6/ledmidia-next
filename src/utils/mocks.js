@@ -2,32 +2,32 @@ const panels = [
   {
     backgroundImg: "/img/redentora.png",
     hoverBackgroundImg: "/img/redentorahover.png",
-    title: "Title",
-    p: "Paragraph",
+    title: "Redentora",
+    p: "Rua bernardino de Campos",
   },
   {
     backgroundImg: "/img/norte.png",
     hoverBackgroundImg: "/img/norteHover.png",
-    title: "Title",
-    p: "Paragraph",
+    title: "Região Norte",
+    p: "Av. Cenobelino de Barro Serra",
   },
   {
     backgroundImg: "/img/nonato.png",
     hoverBackgroundImg: "/img/nonatoHover.png",
-    title: "Title",
-    p: "Paragraph",
+    title: "Arthur Nonato",
+    p: "Rua Comendador Miguel Calfat",
   },
   {
     backgroundImg: "/img/iguatemi.png",
     hoverBackgroundImg: "/img/iguatemiHover.png",
-    title: "Title",
-    p: "Paragraph",
+    title: "Iguatemi",
+    p: "Av. Press, Jucelino k. de Oliveira",
   },
   {
     backgroundImg: "/img/guaruja.png",
     hoverBackgroundImg: "/img/guarujaHover.png",
-    title: "Title",
-    p: "Paragraph",
+    title: "Auto Posto Guaruja",
+    p: "Av. Marg. Fernando Correa Pires",
   },
 ];
 
