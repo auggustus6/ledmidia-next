@@ -2,15 +2,28 @@ import styled, { css } from "styled-components";
 import { fromBottomMenu } from "../../styles/Keyframes/Keyframes";
 
 export const Home = styled.section`
-  background-image: url("img/banner1.svg");
-  background-size: cover;
   width: 100%;
-  height: 76vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   margin-top: 9.7rem;
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100.4vh;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 export const ContainerHome = styled.div`
@@ -18,6 +31,10 @@ export const ContainerHome = styled.div`
   max-width: 128rem;
   width: 95%;
   padding: 10rem 2rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10rem;
 `;
 
 export const ContentHome = styled.div`
@@ -33,7 +50,6 @@ export const ContentHome = styled.div`
     }
 
     h1 {
-      color: #fff;
       font-weight: 500;
       font-size: 4.8rem;
       line-height: 8rem;

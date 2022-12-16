@@ -3,8 +3,11 @@ import useAnimateOnScroll from "../../hooks/useAnimateOnScroll";
 
 const Home = () => {
   const elementRef = useAnimateOnScroll();
+
   return (
     <S.Home id="home">
+      <div className="overlay"></div>
+      <video src="/video/videoLed.mp4" autoPlay muted loop></video>
       <S.ContainerHome>
         <S.ContentHome ref={elementRef}>
           <h1>Anuncie nos melhores pontos</h1>
