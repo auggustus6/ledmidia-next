@@ -10,7 +10,12 @@ export const ContentPainel = styled.div`
   background: rgba(0, 0, 0, 0.6);
 `;
 
-export const PanelsWrapper = styled.div``;
+export const PanelsWrapper = styled.div`
+  max-width: 58.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+`;
 
 export const Painel = styled.div<PainelData>`
   cursor: pointer;
@@ -18,7 +23,7 @@ export const Painel = styled.div<PainelData>`
   align-items: center;
   justify-content: flex-end;
   flex-direction: column;
-  width: 58.8rem;
+  width: 100%;
   height: 38rem;
   background-size: cover;
   background-image: url(${(p) => p.backgroundImg});
@@ -72,4 +77,5 @@ export const ContainerPanelsCard = styled.div`
   /* flex-wrap: wrap; */
   flex-direction: column;
   gap: 4rem;
+  width: 100%;
 `;

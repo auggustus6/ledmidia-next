@@ -9,10 +9,19 @@ export const Wrapper = styled.div`
   background: white;
   padding: 2rem;
   border-radius: 2px;
+
+  @media (max-width: 768px) {
+    height: 98vh;
+  }
 `;
 export const Main = styled.div`
   display: flex;
   gap: 3rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    height: 800px;
+  }
 `;
 export const AsideImage = styled.div`
   flex: 1;
@@ -30,6 +39,7 @@ export const Content = styled.div`
   justify-content: space-between;
   text-align: start;
   color: ${(p) => p.theme.colors.dark};
+  gap: 2rem;
 `;
 
 export const ContentText = styled.div`
@@ -43,7 +53,8 @@ export const ContentText = styled.div`
 `;
 
 export const ContentMap = styled.div`
-  height: 300px;
+  max-height: 300px;
+  height: 100%;
   background: #e7e7e7;
   border-radius: 3px;
   overflow: hidden;
@@ -116,5 +127,10 @@ export const GalleryItem = styled.div`
 
       border-radius: 10px;
     }
+  }
+
+  @media (max-width: 768px) {
+    min-width: 80px;
+    /* width: 100px; */
   }
 `;
