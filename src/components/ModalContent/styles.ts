@@ -20,6 +20,9 @@ export const AsideImage = styled.div`
   background-position: center;
   background-size: cover;
   border-radius: 2px;
+
+  transition: all 0.3s;
+
 `;
 export const Content = styled.div`
   flex: 1;
