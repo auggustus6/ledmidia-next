@@ -42,6 +42,7 @@ export default function ModalContent() {
       <Styles.Gallery>
         {images.map((img) => (
           <Styles.GalleryItem
+            key={img}
             style={{ backgroundImage: `url(${img})` }}
             onClick={() => handleImageClick(img)}
             className={img === currentImage ? "gallery__image-active" : ""}

@@ -22,7 +22,6 @@ export const AsideImage = styled.div`
   border-radius: 2px;
 
   transition: all 0.3s;
-
 `;
 export const Content = styled.div`
   flex: 1;

@@ -12,8 +12,8 @@ const Panels = () => {
           <p>
             Nossos painéis estão posicionados estrategicamente nas principais
             vias de maior fluxo de veículos da cidade, localizações exclusivas
-            que atingem um volume enorme de potenciais clientes,
-            solidificando a marca para seus consumidores.
+            que atingem um volume enorme de potenciais clientes, solidificando a
+            marca para seus consumidores.
           </p>
           <PanelsCard />
         </S.ContentPanels>

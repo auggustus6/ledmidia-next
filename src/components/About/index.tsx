@@ -43,10 +43,10 @@ const About = () => {
             de Alta Definição DOOH - Digital Out Of Home.
           </p>
           <p>
-            A imagem de grande formato de papel, tinta e solventes dos outdoos,
+            A imagem de grande formato de papel, tinta e solventes dos outdoors,
             inerte e passiva, que se integra a paisagem e deixa de ser notada
-            após o segundo olhar, deram lugar ao movimento, a ação, levando a marca aos
-            clientes com maior força, potência e qualidade.
+            após o segundo olhar, deram lugar ao movimento, a ação, levando a
+            marca aos clientes com maior força, potência e qualidade.
           </p>
 
           <Image src="/img/banner_led.png" width="790" height="420" />
