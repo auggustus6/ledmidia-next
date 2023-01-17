@@ -18,8 +18,11 @@ const ContactFooter = () => {
       </p>
       <p style={{ marginBottom: -5 }}>Email:</p>
       <p>
-        <a style={{ color: "#00a6de" }} href="mailto:contato@ledmidiarp.com.br">
-          contato@ledmidiarp.com.br
+        <a
+          style={{ color: "#00a6de" }}
+          href="mailto:comercial@ledmidirp.com.br"
+        >
+          comercial@ledmidirp.com.br
         </a>
       </p>
     </S.FooterContact>

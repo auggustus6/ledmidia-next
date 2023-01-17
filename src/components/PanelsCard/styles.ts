@@ -3,13 +3,14 @@ import theme from "../../styles/theme";
 
 interface PainelData {
   backgroundImg: string;
-  hoverBackgroundImg: string;
 }
 
 export const ContentPainel = styled.div`
   width: 100%;
   background: rgba(0, 0, 0, 0.6);
 `;
+
+export const PanelsWrapper = styled.div``;
 
 export const Painel = styled.div<PainelData>`
   cursor: pointer;
@@ -36,13 +37,14 @@ export const Painel = styled.div<PainelData>`
     height: 28rem;
   }
 
-  &:hover {
+  /* UNCOMMENT THIS TO ENABLE IMAGE CHANGE ON HOVER */
+  /* &:hover {
     h1,
     p {
       display: none;
     }
-    background-image: url(${(p) => p.hoverBackgroundImg});
-  }
+    background-image: url(p.hoverBackgroundImg);
+  } */
 
   h1 {
     font-size: 2.4rem;
@@ -67,6 +69,7 @@ export const ContainerPanelsCard = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 2.4rem;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  gap: 4rem;
 `;

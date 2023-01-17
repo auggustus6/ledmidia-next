@@ -5,7 +5,7 @@ export const Header = styled.header`
     background-color: ${theme.colors.dark};
     padding: 2rem 0 1rem;
     width: 100%;
-    z-index: 9999;
+    z-index: 10;
     position: fixed;
     top: 0;
   `}

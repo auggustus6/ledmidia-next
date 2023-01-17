@@ -10,12 +10,10 @@ const Panels = () => {
         <S.ContentPanels>
           <h1>Nossos painéis</h1>
           <p>
-            Nossos painéis estão posicionados estratégicamente em 3 das
-            principais vias de maior fluxo de veículos da cidade, cujas
-            localizações exclusivas atingem um volume enorme de clientes e
-            potenciais clientes, solidificando a marca para seus consumidores e
-            aumentando significamente a possibilidade de expansão, com a
-            conquista e prospecção de novas pessoas do público-alvo.
+            Nossos painéis estão posicionados estrategicamente nas principais
+            vias de maior fluxo de veículos da cidade, localizações exclusivas
+            que atingem um volume enorme de potenciais clientes,
+            solidificando a marca para seus consumidores.
           </p>
           <PanelsCard />
         </S.ContentPanels>

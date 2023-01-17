@@ -5,7 +5,6 @@ export const Home = styled.section`
   width: 100%;
   height: 90vh;
   display: flex;
-  align-items: center;
   justify-content: center;
   text-align: center;
   margin-top: 9.7rem;
@@ -22,7 +21,7 @@ export const Home = styled.section`
   video {
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: calc(100vh - 9.4rem);
   }
 `;
 
@@ -34,7 +33,7 @@ export const ContainerHome = styled.div`
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 10rem;
+  top: 20rem;
 `;
 
 export const ContentHome = styled.div`
