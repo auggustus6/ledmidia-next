@@ -1,5 +1,11 @@
 const panels = [
   {
+    backgroundImg: "/img/anubis.png",
+    hoverBackgroundImg: "/img/redentorahover.png",
+    title: "Anubis",
+    p: "Av. Dr. Alberto Andaló",
+  },
+  {
     backgroundImg: "/img/redentora.png",
     hoverBackgroundImg: "/img/redentorahover.png",
     title: "Redentora",

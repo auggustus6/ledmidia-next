@@ -1,10 +1,27 @@
 import React, { useState } from "react";
 import * as Styles from "./styles";
 
-export default function ModalContent() {
-  const [currentImage, setCurrentImage] = useState("/img/guaruja.png");
+interface ModalContentProps {
+  title: string;
+  address: string;
+  imgSrc: string;
+  onCloseModal: () => void;
+  googleMapUrl?: string;
+  kitDownloadLink?: string;
+  galleryImages?: string[];
+}
+
+export default function ModalContent({
+  title,
+  address,
+  imgSrc,
+  onCloseModal,
+  kitDownloadLink,
+}: ModalContentProps) {
+  const [currentImage, setCurrentImage] = useState(imgSrc);
 
   const images = [
+    imgSrc,
     "/img/guaruja.png",
     "/img/iguatemi.png",
     "/img/nonato.png",
@@ -18,15 +35,21 @@ export default function ModalContent() {
 
   return (
     <Styles.Wrapper>
+      <Styles.CloseButtn onClick={onCloseModal} />
       <Styles.Main>
         <Styles.AsideImage
           style={{ backgroundImage: `url(${currentImage})` }}
         />
         <Styles.Content>
           <Styles.ContentText>
-            <h2>Redentora</h2>
-            <h3>Rua bernardino de Campos</h3>
-            <Styles.Button>KIT DIGITAL PARA BAIXAR</Styles.Button>
+            <h2>{title}</h2>
+            <h3>{address}</h3>
+            <Styles.Button
+              href={kitDownloadLink}
+              download={kitDownloadLink?.split("/").slice(-1)}
+            >
+              KIT DIGITAL PARA BAIXAR
+            </Styles.Button>
           </Styles.ContentText>
           <Styles.ContentMap
           // style={{ backgroundImage: `url(/img/guarujaHover.png)` }}

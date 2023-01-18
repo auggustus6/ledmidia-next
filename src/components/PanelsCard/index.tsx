@@ -40,7 +40,13 @@ const PanelsCard = () => {
             isOpen={modals[painel.title]}
             onCloseModal={() => handleOnCloseModal(painel.title)}
           >
-            <ModalContent />
+            <ModalContent
+              address={painel.p}
+              title={painel.title}
+              imgSrc={painel.backgroundImg}
+              kitDownloadLink={"/download/kit.pdf"}
+              onCloseModal={() => handleOnCloseModal(painel.title)}
+            />
           </SimpleModal>
         </S.PanelsWrapper>
       ))}

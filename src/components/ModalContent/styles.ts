@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import { MdOutlineClose } from "react-icons/md";
 
 export const Wrapper = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -27,6 +29,18 @@ export const Wrapper = styled.div`
     }
   }
 `;
+
+export const CloseButtn = styled(MdOutlineClose)`
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+  color: #333;
+  font-size: 4rem;
+
+  transition: all 0.3s;
+`;
+
 export const Main = styled.div`
   display: flex;
   gap: 3rem;
@@ -86,7 +100,8 @@ export const ContentMap = styled.div`
   }
 `;
 
-export const Button = styled.div`
+export const Button = styled.a`
+  display: block;
   padding: 1rem 2rem;
   text-align: center;
   background: ${(p) => p.theme.colors.button};
