@@ -2,11 +2,13 @@ import { useEffect, useRef } from "react";
 
 const useAnimateOnScroll = (threshold = 0.1) => {
   const elementRef = useRef<HTMLHeadingElement>(null!);
+  let wasAnimated = false;
 
   useEffect(() => {
     function handleMutation([entry]: IntersectionObserverEntry[]) {
-      if (entry.isIntersecting) {
+      if (entry.isIntersecting && !wasAnimated) {
         elementRef.current.classList.add("active");
+        wasAnimated = true;
       } else {
         elementRef.current.classList.remove("active");
       }

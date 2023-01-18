@@ -10,8 +10,21 @@ export const Wrapper = styled.div`
   padding: 2rem;
   border-radius: 2px;
 
+  will-change: contents;
+
   @media (max-width: 768px) {
     height: 98vh;
+  }
+
+  overflow-y: auto;
+
+  .modal__map-mobile {
+    border: none;
+    width: 100%;
+    height: 100%;
+    @media (min-width: 768px) {
+      display: none;
+    }
   }
 `;
 export const Main = styled.div`
@@ -20,7 +33,6 @@ export const Main = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column-reverse;
-    height: 800px;
   }
 `;
 export const AsideImage = styled.div`
@@ -31,6 +43,11 @@ export const AsideImage = styled.div`
   border-radius: 2px;
 
   transition: all 0.3s;
+
+  @media (max-width: 768px) {
+    height: 300px;
+    flex: unset;
+  }
 `;
 export const Content = styled.div`
   flex: 1;
@@ -63,6 +80,10 @@ export const ContentMap = styled.div`
     width: 100%;
     height: 100%;
   }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Button = styled.div`
@@ -89,13 +110,13 @@ export const Button = styled.div`
 export const Gallery = styled.div`
   display: flex;
   gap: 1.6rem;
-  height: 100px;
+  min-height: 100px;
   width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
   /* background: rgba(0, 0, 0, 0.1); */
 `;
 export const GalleryItem = styled.div`
-  height: 100%;
   min-width: 100px;
   background-position: center;
   background-size: cover;
@@ -131,6 +152,9 @@ export const GalleryItem = styled.div`
 
   @media (max-width: 768px) {
     min-width: 80px;
+    min-height: 80px;
+    max-width: 80px;
+    max-height: 80px;
     /* width: 100px; */
   }
 `;
