@@ -19,5 +19,3 @@ export const Wrapper = styled.div`
   overflow: hidden;
   z-index: 9998;
 `;
-
-
