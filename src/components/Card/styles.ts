@@ -6,6 +6,12 @@ export const Card = styled.div`
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 
+  background: white;
+
+  border-radius: 3px;
+
+  min-height: 280px;
+
   &:hover {
     transform: scale(1.05);
   }
@@ -19,6 +25,25 @@ export const CardContent = styled.div`
     flex-direction: column;
     padding: 2rem;
     cursor: pointer;
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 64px;
+      width: 64px;
+
+      /* background: blue; */
+
+      svg {
+        color: ${theme.colors.button};
+        font-size: 10rem;
+        /* height: 100%;
+        width: 100%; */
+        animation: floating 1s infinite ease-in-out;
+        animation-direction: alternate;
+      }
+    }
 
     &.active {
       animation-name: ${fadeOpacity};
@@ -37,4 +62,14 @@ export const CardContent = styled.div`
       text-align: center;
     }
   `}
+
+  @keyframes floating {
+    from {
+      transform: translateY(0);
+    }
+
+    to {
+      transform: translateY(10px);
+    }
+  }
 `;

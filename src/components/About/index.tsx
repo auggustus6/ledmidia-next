@@ -5,6 +5,10 @@ import useAnimateOnScroll from "../../hooks/useAnimateOnScroll";
 import { SwiperSlide, SwiperProps } from "swiper/react";
 import Slider from "../Slider/Slider";
 
+import { BsFillGeoFill as GeoIcon } from "react-icons/bs";
+import { ImQrcode as QrCodeIcon } from "react-icons/im";
+import { RxLightningBolt as ImpactIcon } from "react-icons/rx";
+
 const About = () => {
   const elementRef = useAnimateOnScroll();
   const settings: SwiperProps = {
@@ -54,21 +58,28 @@ const About = () => {
         <S.ContainerCard>
           <Slider settings={settings}>
             <SwiperSlide>
-              <Card img="/img/icon1.svg" title="Tecnologia e Inovação" p="" />
+              <Card img="/img/icon1.svg" title="Localização" icon={GeoIcon}>
+                Painéis de LED espalhados pelos principais pontos de Rio Preto
+                com o objetivo de gerar visibilidade para o seu negócio!
+                <br />
+                Destaque para a sua marca por toda cidade.
+              </Card>
             </SwiperSlide>
             <SwiperSlide>
               <Card
                 img="/img/icon2.svg"
-                title="Exclusividade e Estratégia"
-                p=""
-              />
+                title="Interatividade"
+                icon={QrCodeIcon}
+              >
+                Com a LED MÍDIA você pode atingir e causar mais impacto no
+                público!
+              </Card>
             </SwiperSlide>
             <SwiperSlide>
-              <Card
-                img="/img/icon3.svg"
-                title="Visibilidade e Flexbilidade"
-                p=""
-              />
+              <Card img="/img/icon3.svg" title="Impacto" icon={ImpactIcon}>
+                Impacto e visibilidade juntos, tudo pensado para evolução do seu
+                negócio!
+              </Card>
             </SwiperSlide>
           </Slider>
         </S.ContainerCard>

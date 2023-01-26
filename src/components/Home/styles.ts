@@ -3,7 +3,7 @@ import { fromBottomMenu } from "../../styles/Keyframes/Keyframes";
 
 export const Home = styled.section`
   width: 100%;
-  height: 90vh;
+  /* height: 90vh; */
   display: flex;
   justify-content: center;
   text-align: center;
