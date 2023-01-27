@@ -9,13 +9,11 @@ export const About = styled.section`
   opacity: 1;
   background-image: radial-gradient(
     ellipse farthest-corner at 4px 4px,
-    rgba(255,255,255,0.1),
-    /* rgba(0, 170, 255,0.2), */
-    transparent 50%,
+    rgba(255, 255, 255, 0.1),
+    /* rgba(0, 170, 255,0.2), */ transparent 50%,
     transparent 50%
   );
 
-  
   background-size: 6px 6px;
 `;
 
