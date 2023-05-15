@@ -28,12 +28,12 @@ const PanelsCard = () => {
       {painels.map((painel, index) => (
         <S.PanelsWrapper key={index}>
           <S.Painel
-            backgroundImg={painel.backgroundImg}
+            backgroundImg={painel.backgroundImg!}
             onClick={() => handleOpenModal(painel.title)}
           >
             <S.ContentPainel>
               <h1>{painel.title}</h1>
-              <p>{painel.p}</p>
+              <p>{painel.address}</p>
             </S.ContentPainel>
           </S.Painel>
           <SimpleModal
@@ -41,10 +41,11 @@ const PanelsCard = () => {
             onCloseModal={() => handleOnCloseModal(painel.title)}
           >
             <ModalContent
-              address={painel.p}
+              address={painel.address}
               title={painel.title}
-              imgSrc={painel.backgroundImg}
-              kitDownloadLink={"/download/kit.pdf"}
+              reference={painel.reference}
+              imgSrc={painel.backgroundImg!}
+              kitDownloadLink={painel.download}
               onCloseModal={() => handleOnCloseModal(painel.title)}
             />
           </SimpleModal>

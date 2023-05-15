@@ -5,6 +5,7 @@ interface ModalContentProps {
   title: string;
   address: string;
   imgSrc: string;
+  reference?: string;
   onCloseModal: () => void;
   googleMapUrl?: string;
   kitDownloadLink?: string;
@@ -14,24 +15,25 @@ interface ModalContentProps {
 export default function ModalContent({
   title,
   address,
+  reference,
   imgSrc,
   onCloseModal,
   kitDownloadLink,
 }: ModalContentProps) {
   const [currentImage, setCurrentImage] = useState(imgSrc);
 
-  const images = [
-    imgSrc,
-    "/img/guaruja.png",
-    "/img/iguatemi.png",
-    "/img/nonato.png",
-    "/img/norte.png",
-    "/img/redentora.png",
-  ];
+  // const images = [
+  //   imgSrc,
+  //   "/img/guaruja.png",
+  //   "/img/iguatemi.png",
+  //   "/img/nonato.png",
+  //   "/img/norte.png",
+  //   "/img/redentora.png",
+  // ];
 
-  function handleImageClick(img: string) {
-    setCurrentImage(img);
-  }
+  // function handleImageClick(img: string) {
+  //   setCurrentImage(img);
+  // }
 
   return (
     <Styles.Wrapper>
@@ -44,6 +46,10 @@ export default function ModalContent({
           <Styles.ContentText>
             <h2>{title}</h2>
             <h3>{address}</h3>
+            <p>
+              <b>referência: </b>
+              {reference}
+            </p>
             <Styles.Button
               href={kitDownloadLink}
               download={kitDownloadLink?.split("/").slice(-1)}
