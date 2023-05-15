@@ -5,14 +5,7 @@ import {
   GlobalStyleComponent,
 } from "styled-components";
 
-type GlobalStylesProps = {
-  removeBg?: boolean;
-};
-
-const GlobalStyles: GlobalStyleComponent<
-  GlobalStylesProps,
-  DefaultTheme
-> = createGlobalStyle`
+const GlobalStyles: GlobalStyleComponent<any, DefaultTheme> = createGlobalStyle`
     
     * {
       margin: 0;
