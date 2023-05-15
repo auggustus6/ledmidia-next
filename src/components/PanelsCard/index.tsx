@@ -45,6 +45,7 @@ const PanelsCard = () => {
               title={painel.title}
               reference={painel.reference}
               imgSrc={painel.backgroundImg!}
+              map={painel.map}
               kitDownloadLink={painel.download}
               onCloseModal={() => handleOnCloseModal(painel.title)}
             />
