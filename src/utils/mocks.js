@@ -17,8 +17,9 @@ const panels = [
   },
   {
     title: "Redentora",
-    address: "Av. Pres. Juscelino K. de oliveira, 4200",
-    reference: "Av. Faria Lima com R. Bernardino de Campos",
+    address: "Av. Bernardino de Campos, 4705",
+    reference:
+      "Av. Faria Lima com R. Bernardino de Campos, Auto Posto Elefantinho",
     backgroundImg: "/img/redentora.jpeg",
     download: "/download/redentora.pdf",
     map: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3729.21986522649!2d-49.39489538832322!3d-20.822826266652573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDQ5JzIyLjIiUyA0OcKwMjMnMzIuMyJX!5e0!3m2!1spt-BR!2sbr!4v1684245638700!5m2!1spt-BR!2sbr",
