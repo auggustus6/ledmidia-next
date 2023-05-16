@@ -41,14 +41,14 @@ const panels = [
     download: "/download/telus.pdf",
     map: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3729.1939942300082!2d-49.39720948832312!3d-20.823871366686532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDQ5JzI2LjAiUyA0OcKwMjMnNDAuNyJX!5e0!3m2!1spt-BR!2sbr!4v1684245708594!5m2!1spt-BR!2sbr",
   },
-  {
-    title: "Murchid Homsi",
-    address: "Av. Murchid Homsi",
-    reference: "Av. Murchid Homsi",
-    backgroundImg: "/img/homsi.png",
-    download: "/download/homsi.pdf",
-    map: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3729.342403269016!2d-49.36880848832347!3d-20.817875466491515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDQ5JzA0LjQiUyA0OcKwMjEnNTguNCJX!5e0!3m2!1spt-BR!2sbr!4v1684245738454!5m2!1spt-BR!2sbr",
-  },
+  // {
+  //   title: "Murchid Homsi",
+  //   address: "Av. Murchid Homsi",
+  //   reference: "Av. Murchid Homsi",
+  //   backgroundImg: "/img/homsi.png",
+  //   download: "/download/homsi.pdf",
+  //   map: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3729.342403269016!2d-49.36880848832347!3d-20.817875466491515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDQ5JzA0LjQiUyA0OcKwMjEnNTguNCJX!5e0!3m2!1spt-BR!2sbr!4v1684245738454!5m2!1spt-BR!2sbr",
+  // },
   {
     title: "Philadelpho",
     address: "Av. Philadelpho Manoel Gouveia Neto",
