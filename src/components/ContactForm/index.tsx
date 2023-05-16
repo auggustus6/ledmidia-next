@@ -56,7 +56,13 @@ const ContactForm = () => {
             phoneNumber: "",
           },
         });
-        console.log(values);
+        fetch("/api/contact", {
+          body: JSON.stringify(values),
+          headers: {
+            "Content-Type": "application/json",
+          },
+          method: "POST",
+        });
       }}
     >
       {(formik) => {
