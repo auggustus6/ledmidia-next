@@ -82,7 +82,7 @@ export default function ModalContent({
       </Styles.Gallery> */}
       <iframe
         // src={`https://www.google.com/maps/?q=${map}&output=embed`}
-        src={`https://maps.google.com/maps?q=${map}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
+        src={map}
         allowFullScreen={false}
         referrerPolicy="no-referrer-when-downgrade"
         className="modal__map-mobile"
